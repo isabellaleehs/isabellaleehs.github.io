@@ -1,2 +1,4 @@
 name: Isabella Lee
 markdown: kramdown
+baseurl: /
+exclude: ['README.md']
