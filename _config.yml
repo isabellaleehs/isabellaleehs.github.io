@@ -4,3 +4,5 @@ exclude: ["README.md"]
 permalink: pretty
 gems:
   - jekyll-bootstrap-sass
+bootstrap:
+  assets: true
