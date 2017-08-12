@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Isabella Lee</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -48,10 +48,13 @@
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#dance">Dance</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -66,12 +69,56 @@
         <div class="container">
             <img class="img-fluid" src="img/profile.png" alt="">
             <div class="intro-text">
-                <span class="name">Start Bootstrap</span>
+                <span class="name">Isabella Lee</span>
                 <hr class="star-light">
-                <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                <span class="skills">Learner - Tech enthusiast - Dancer</span>
             </div>
         </div>
     </header>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <h2 class="text-center">About</h2>
+            <hr class="star-light">
+            <div class="row">
+                <div class="col-lg-5 offset-lg-1">
+                    <p>I am a current student at The University of Chicago, and was born 
+                    and raised in the beautiful city-state of Singapore. Before taking an 
+                    interest in Economics and finance, I was a devoted Science student, 
+                    participating in multiple Math and Science olympiads, obsessing over 
+                    neuroscience, placing at the Google Science Fair (regional finalist) 
+                    and thriving within an enriched environment in the Raffles 
+                    Academy (Biology) at Raffles Institution (Junior College). Although I 
+                    still have a deep interest in the Sciences, I have decided to pursue 
+                    a different field in college, in an effort to understand the bigger picture 
+                    of how socioeconomic forces shape societal advancements, and begin 
+                    to grasp how private capital can truly make a tangible difference across 
+                    fields like academia and infrastructure development.
+                      </p>
+                </div>
+                <div class="col-lg-5">
+                    <p>School aside, I am a self-professed balletomane and am deeply 
+                    interested and involved in the arts.  I have been training in classical 
+                    ballet since I was 3 years old, and formally training in contemporary 
+                    dance since the age of 13, performing on numerous stages at a 
+                    pre-professional level.  I enjoy taking dance classes wherever I go, 
+                    improvising, catching Broadway shows, and doing Swing dancing when I 
+                    have the time. I also love netball, kayaking, sport-climbing and 
+                    trekking up mountain trails -- I hope to be able to visit all of 
+                    America's national parks in my lifetime! Most recently, I have taken
+                    an interest in programming, and am in the midst of self-learning
+                    front-end web development, Python, R and Stata.  Check out some of 
+                    my projects below! </p>
+                </div>
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -143,27 +190,79 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
+    <!-- Dance Video Section -->
+    <section id="dance">
         <div class="container">
-            <h2 class="text-center">About</h2>
-            <hr class="star-light">
+            <h2 class="text-center">Dance</h2>
+            <hr class="star-primary">
             <div class="row">
-                <div class="col-lg-4 offset-lg-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                <div class="col-sm-4 dance-item">
+                    <div class="dance-link" href="#danceModal1" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <h4 class="dancevid1"> Undercurrent </h4>
+                        <div class="embed-responsive embed-responsive-4by3">
+                          <iframe class="embed-responsive-item" src="https://youtu.be/Jw8MtxOVH5A"></iframe>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <div class="col-sm-4 dance-item">
+                    <div class="dance-link" href="#danceModal2" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+                    </div>
                 </div>
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                <div class="col-sm-4 portfolio-item">
+                    <div class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <div class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/game.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <div class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <div class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
