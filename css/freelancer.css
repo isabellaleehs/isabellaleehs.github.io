@@ -227,7 +227,7 @@ header.masthead {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
 
-.portfolio-modal .dance-modal .modal-dialog {
+.portfolio-modal .modal-dialog {
   max-width: 100%;
   min-height: 100%;
   margin: 0;
@@ -238,19 +238,19 @@ header.masthead {
   background-clip: border-box;
   -webkit-box-shadow: none;
   box-shadow: none; }
-  .portfolio-modal .dance-modal .modal-dialog .modal-content {
+  .portfolio-modal .modal-dialog .modal-content {
     padding: 100px 0;
     border: 0;
     border-radius: 0; }
-    .portfolio-modal .dance-modal .modal-dialog .modal-content h2 {
+    .portfolio-modal .modal-dialog .modal-content h2 {
       font-size: 3em;
       margin: 0; }
-    .portfolio-modal .dance-modal .modal-dialog .modal-content img {
+    .portfolio-modal .modal-dialog .modal-content img {
       margin-bottom: 30px; }
-    .portfolio-modal .dance-modal .modal-dialog .modal-content .item-details {
+    .portfolio-modal .modal-dialog .modal-content .item-details {
       margin: 30px 0; }
 
-.portfolio-modal .dance-modal .close-modal {
+.portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
   right: 25px;
@@ -258,9 +258,9 @@ header.masthead {
   height: 75px;
   cursor: pointer;
   background-color: transparent; }
-  .portfolio-modal .dance-modal .close-modal:hover {
+  .portfolio-modal .close-modal:hover {
     opacity: .3; }
-  .portfolio-modal .dance-modal .close-modal .lr {
+  .portfolio-modal .close-modal .lr {
     /* Safari and Chrome */
     z-index: 1051;
     width: 1px;
@@ -271,7 +271,7 @@ header.masthead {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: #2C3E50; }
-    .portfolio-modal .dance-modal .close-modal .lr .rl {
+    .portfolio-modal .close-modal .lr .rl {
       /* Safari and Chrome */
       z-index: 1052;
       width: 1px;
@@ -282,7 +282,7 @@ header.masthead {
       transform: rotate(90deg);
       background-color: #2C3E50; }
 
-.portfolio-modal .dance-modal .modal-backdrop {
+.portfolio-modal .modal-backdrop {
   display: none;
   opacity: 0; }
 
@@ -447,7 +447,4 @@ footer {
 .btn:active,
 .btn.active {
   outline: none; }
-  
-#dance {
-  background-image: url('https://drive.google.com/drive/u/1/my-drive');
-}
+
