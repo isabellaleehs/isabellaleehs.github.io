@@ -159,9 +159,8 @@ section.success {
 header.masthead {
   text-align: center;
   color: white; }
-  header.banner {
-    background-image: url('img/banner.jpg'); 
-    background-size: cover; }
+  background-image: url('img/banner.jpg'); 
+  background-size: cover; }
   header.masthead .container {
     padding-top: 100px;
     padding-bottom: 50px; }
