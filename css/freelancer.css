@@ -159,7 +159,7 @@ section.success {
 header.masthead {
   text-align: center;
   color: white;
-  background: #148ABC; }
+  background: url('img/banner.jpg'); }
   header.masthead .container {
     padding-top: 100px;
     padding-bottom: 50px; }
