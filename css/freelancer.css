@@ -160,8 +160,7 @@ header.masthead {
   text-align: center;
   color: white;
   background-size: cover;
-  background-image: url('img/banner.jpg');
-  z-index: -1; }
+  background-image: url('img/banner.jpg'); }
   header.masthead .container {
     padding-top: 100px;
     padding-bottom: 50px; }
