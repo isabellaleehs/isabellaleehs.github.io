@@ -27,10 +27,8 @@ header.masthead {
 }
 
 #banner {
-  background: url(img/banner.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url(img/banner.jpg) no-repeat center center fixed; 
+  z-index: -1;
   background-size: cover;
   margin: 0px;
   height: 100%;
