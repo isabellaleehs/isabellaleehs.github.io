@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #148ABC;
   outline: none; }
 
 h1,
@@ -55,7 +55,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: white;
-  background-color: #18BC9C; }
+  background-color: #148ABC; }
 
 hr.star-primary {
   border-color: #2C3E50; }
@@ -75,7 +75,7 @@ section {
 
 section.success {
   color: white;
-  background: #18BC9C;
+  background: #148ABC;
   text-align: center; }
 
 @media (max-width: 767px) {
@@ -118,7 +118,7 @@ section.success {
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: white; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #18BC9C;
+        color: #148ABC;
         outline: none; }
       #mainNav .navbar-nav li.nav-item a.nav-link:focus, #mainNav .navbar-nav li.nav-item a.nav-link:active {
         color: white; }
@@ -130,8 +130,8 @@ section.success {
     border-color: white; }
     #mainNav .navbar-toggler:hover, #mainNav .navbar-toggler:focus {
       color: white;
-      border-color: #18BC9C;
-      background-color: #18BC9C; }
+      border-color: #148ABC;
+      background-color: #148ABC; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -147,10 +147,10 @@ section.success {
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: #18BC9C; }
+      background: #148ABC; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active {
         color: white;
-        background: #18BC9C; }
+        background: #148ABC; }
   #mainNav.navbar-shrink {
     padding: 10px 0; }
     #mainNav.navbar-shrink .navbar-brand {
@@ -159,7 +159,7 @@ section.success {
 header.masthead {
   text-align: center;
   color: white;
-  background: #18BC9C; }
+  background: #148ABC; }
   header.masthead .container {
     padding-top: 100px;
     padding-bottom: 50px; }
@@ -202,7 +202,7 @@ header.masthead {
       -moz-transition: all ease .5s;
       transition: all ease .5s;
       opacity: 0;
-      background: rgba(24, 188, 156, 0.9); }
+      background: rgba(21, 146, 198, 0.9); }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -327,7 +327,7 @@ header.masthead {
   opacity: 1; }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C; }
+  color: #148ABC; }
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee; }
@@ -353,7 +353,7 @@ footer {
   border: solid 2px white;
   background: transparent; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-    color: #18BC9C;
+    color: #148ABC;
     border: solid 2px white;
     background: white; }
 
@@ -398,8 +398,8 @@ footer {
 .btn-success {
   font-weight: 700;
   color: white;
-  border-color: #18BC9C;
-  background-color: #18BC9C; }
+  border-color: #148ABC;
+  background-color: #148ABC; }
   .btn-success:focus, .btn-success.focus {
     color: white;
     border-color: #0a4b3e;
@@ -427,10 +427,10 @@ footer {
   fieldset[disabled] .btn-success:hover,
   fieldset[disabled] .btn-success:focus,
   fieldset[disabled] .btn-success.focus {
-    border-color: #18BC9C;
-    background-color: #18BC9C; }
+    border-color: #148ABC;
+    background-color: #148ABC; }
   .btn-success .badge {
-    color: #18BC9C;
+    color: #148ABC;
     background-color: white; }
 
 .btn-social {
