@@ -26,13 +26,6 @@ header.masthead {
     }
 }
 
-#banner {
-  background-image: url('img/banner.jpg') no-repeat center center fixed; 
-  z-index: -1;
-  background-position: left top, right top;
-  margin: 0px;
-}
-
 /* TRYING TO FORMAT SUCH THAT BANNER IN INDEX.HTML APPEARS ACROSS THE MASTHEAD. change line 5 to...? */
 
 @media(min-width:768px) {
