@@ -14,7 +14,7 @@
         resize: none;
         border: none;
         border-radius: 0;
-        background: none;
+        background: #148ABC;
         box-shadow: none !important;
     }
     label {
@@ -32,11 +32,16 @@
         vertical-align: middle;
         vertical-align: baseline;
         opacity: 0;
+        color: #F7F9F9;
     }
     &:not(:first-child) {
         padding-left: 14px;
         border-left: 1px solid $gray-lighter;
     }
+}
+
+h2.text-center {
+  color: white;
 }
 
 .floating-label-form-group-with-value {
