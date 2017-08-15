@@ -10,9 +10,6 @@ header.masthead {
     img {
         display: block;
         margin: 0 auto 20px;
-        height: 100%;
-        paddiing: 0em;
-        margin: 0;
     }
     .intro-text {
         .name {
@@ -27,6 +24,14 @@ header.masthead {
             font-weight: 300;
         }
     }
+}
+
+#banner {
+  background:url(img/IMG_9697.jpg);
+  display: block;
+  height: auto;
+  padding: 1em;
+  margin: 0;
 }
 
 /* TRYING TO FORMAT SUCH THAT BANNER IN INDEX.HTML APPEARS ACROSS THE MASTHEAD. change line 5 to...? */
