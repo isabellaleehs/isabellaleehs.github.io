@@ -164,7 +164,7 @@ section.dance {
 header.masthead {
   text-align: center;
   color: white; 
-  background: #148ABC;}
+  /*background: #148ABC*/;}
   #banner {
   background-image: url("../img/banner.jpg") no-repeat center; 
   background-size: cover; 
