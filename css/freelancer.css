@@ -78,6 +78,10 @@ section.success {
   background: #148ABC;
   text-align: center; }
 
+span.skills {
+  font-weight: bold;
+}
+
 section.dance {
   color: white;
   background: #148ABC;
