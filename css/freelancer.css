@@ -77,11 +77,7 @@ section.success {
   color: white;
   background: #148ABC;
   text-align: center; }
-
-span.skills {
-  font-weight: 900;
-}
-
+  
 section.dance {
   color: white;
   background: #148ABC;
@@ -167,8 +163,7 @@ section.dance {
 
 header.masthead {
   text-align: center;
-  color: white; 
-  /*background: #148ABC*/;}
+  color: white;}
   #banner {
   background: url("../img/banner.jpg") no-repeat center; 
   background-size: cover; 
@@ -188,7 +183,7 @@ header.masthead {
     text-transform: uppercase; }
   header.masthead .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300; }
+    font-weight: 500; }
 
 @media (min-width: 768px) {
   header.masthead .container {
