@@ -78,6 +78,11 @@ section.success {
   background: #148ABC;
   text-align: center; }
 
+section.dance {
+  color: white;
+  background: #148ABC;
+  text-align: center; }
+  
 @media (max-width: 767px) {
   section {
     padding: 75px 0; }
