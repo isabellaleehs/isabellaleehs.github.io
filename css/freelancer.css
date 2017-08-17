@@ -163,9 +163,10 @@ section.dance {
 
 header.masthead {
   text-align: center;
-  color: white; }
+  color: white; 
+  background: #148ABC;}
   #banner {
-  background-image: url("/img/banner.jpg") no-repeat center !important; 
+  background-image: url("/img/banner.jpg") no-repeat center; 
   background-size: cover; 
   width: 100%;
   height: 100%; }
