@@ -295,7 +295,17 @@ header.masthead {
   display: none;
   opacity: 0; }
 
-.floating-label-form-group {
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*.floating-label-form-group {
   position: relative;
   margin-bottom: 0;
   padding-bottom: .5em;
@@ -340,6 +350,7 @@ header.masthead {
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee; }
+*/
 
 footer {
   color: white; }
