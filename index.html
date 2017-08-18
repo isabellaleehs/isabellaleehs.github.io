@@ -266,6 +266,14 @@
     					<span class="carousel-control-next-icon" aria-hidden="true"></span>
     					<span class="sr-only">Next</span>
   					</a>
+  					
+  					$('a[data-slide="prev"]').click(function() {
+  						$('#carouselExampleIndicators').carousel('prev');
+					});
+
+					$('a[data-slide="next"]').click(function() {
+  						$('#carouselExampleIndicators').carousel('next');
+					});
 
         		</div>
         	</div>
