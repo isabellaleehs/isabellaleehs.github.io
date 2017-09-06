@@ -5,4 +5,7 @@ $(document).ready(function(){
     $('div').mouseleave(function(){
         $(this).fadeTo('fast', 0.5);
     });
+    $('button').click(function() {
+        $('div').fadeOut('slow');
+    });
 });
