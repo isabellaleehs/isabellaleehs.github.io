@@ -295,6 +295,10 @@ header.masthead {
   display: none;
   opacity: 0; }
 
+#dance.dance-item {
+  right: 0;
+  margin: 0 0 15px; }
+  
 .carousel-item {
     height: 100vh;
     min-height: 300px;
