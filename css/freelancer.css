@@ -300,8 +300,9 @@ header.masthead {
   margin: 0 0 15px; }*/
   
 .carousel-item {
-    height: 100vh;
+    height: 100%;
     min-height: 300px;
+    width: 100vw;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
