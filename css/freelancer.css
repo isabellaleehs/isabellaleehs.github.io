@@ -295,6 +295,16 @@ header.masthead {
   display: none;
   opacity: 0; }
 
+#dance.dance-item {
+  right: 0;
+  margin: 0 0 15px; }
+  #dance .dance-item {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer; }
+
 /*#dance.dance-item {
   right: 0;
   margin: 0 0 15px; }
